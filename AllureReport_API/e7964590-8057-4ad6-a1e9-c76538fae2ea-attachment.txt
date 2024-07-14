@@ -1,0 +1,3 @@
+
+{'id': '123abc', 'name': 'Doggie', 'status': 'available'}
+<Response [500]> Invalid Pet Data

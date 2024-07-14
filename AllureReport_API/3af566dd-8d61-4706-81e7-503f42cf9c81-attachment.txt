@@ -1,0 +1,3 @@
+
+{'id': 1, 'username': 'user123', 'firstName': 'Mac', 'lastName': 'nick', 'email': 'john@gmail.com', 'password': 'John123', 'phone': '1234567890', 'userStatus': 1}
+<Response [200]> user Updated successfully
