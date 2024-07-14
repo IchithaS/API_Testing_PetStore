@@ -2,6 +2,7 @@ import requests
 import json
 import pytest
 
+
 @pytest.mark.store
 # Positive Testcase for  Place an order
 def test_place_order_positive(store_endpoint, headers):

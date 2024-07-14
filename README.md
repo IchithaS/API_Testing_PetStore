@@ -1,7 +1,6 @@
 # ** Developed and implementing an API testing framework using Python and Pytest for or PetStore Swagger API  **
 
 **## About the Project** -- Overview
-
 - This project presents a comprehensive API testing framework designed to automate API testing of the Petstore Swagger API, ensuring its quality and reliability. It focuses on testing the Pet, Store and User models.
 
 **Setup and About the project**:
