@@ -7,22 +7,21 @@
 
 1. Install Required Libraries
 
-   
+
+
      pip install 
-
-
 
      pytest : A framework for writing and running tests.
      requests : library for HTTP requests.
      pytest-html : generating HTML reports for pytest results.
      allure-pytest : generating Allure reports for pytest results.
 
-2.  requirements.txt : This file lists the dependencies needed for the project
+1.  requirements.txt : This file lists the dependencies needed for the project
 
     pip install -r requirements.txt
 
 
-3. List of the key features:
+2. List of the key features:
   - Test cases covering GET, POST, PUT, DELETE HTTP requests for Pet, Store and User models
 
 4. Technologies Used
@@ -75,6 +74,8 @@
       --user_endpoints : user API endpoints using the base URL.
 
 9.  Test cases for Automation 
+
+
 
    - Pet Endpoint
 
