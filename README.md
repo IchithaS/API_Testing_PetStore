@@ -11,6 +11,7 @@
 
      #pip install 
 
+
      pytest : A framework for writing and running tests.
      requests : library for HTTP requests.
      pytest-html : generating HTML reports for pytest results.
@@ -80,6 +81,7 @@
 - Pet Endpoint
 
 
+
         -Positive :-Creating a new pet
                    -Fetch Pet By PetID
                    -Updating a pet Status
@@ -116,16 +118,20 @@
      Screenshot of the report is attached 'Petstore_APIAutomation/Report_Screenshots' folder.
      which have Allure Report,  pytest-html report.
 
+
+ 11. Running the Tests
+
+
      
- 12. Running the Tests
-     
+
              Allure report
 
              pytest --alluredir=AllureReport_API
              allure serve .\AllureReport_API\
             
 
- pytest-html
+
+             pytest-html
              
              py.test -v -s
              pytest --html=report.html
