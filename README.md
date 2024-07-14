@@ -7,8 +7,9 @@
 
 1. Install Required Libraries
 
-   
-     pip install 
+
+
+     #pip install 
 
 
      pytest : A framework for writing and running tests.
@@ -16,12 +17,12 @@
      pytest-html : generating HTML reports for pytest results.
      allure-pytest : generating Allure reports for pytest results.
 
-2.  requirements.txt : This file lists the dependencies needed for the project
+1.  requirements.txt : This file lists the dependencies needed for the project
 
     pip install -r requirements.txt
 
 
-3. List of the key features:
+2. List of the key features:
   - Test cases covering GET, POST, PUT, DELETE HTTP requests for Pet, Store and User models
 
 4. Technologies Used
@@ -75,7 +76,9 @@
 
 9.  Test cases for Automation 
 
-   - Pet Endpoint
+
+
+- Pet Endpoint
 
 
 
@@ -110,8 +113,6 @@
 
 
 
-
-
  10. Report
 
      Screenshot of the report is attached 'Petstore_APIAutomation/Report_Screenshots' folder.
@@ -119,13 +120,18 @@
 
 
  11. Running the Tests
+
+
+     
+
              Allure report
 
              pytest --alluredir=AllureReport_API
              allure serve .\AllureReport_API\
             
-             
- pytest-html
+
+
+             pytest-html
              
              py.test -v -s
              pytest --html=report.html
