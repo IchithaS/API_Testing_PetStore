@@ -10,6 +10,8 @@
    
      pip install 
 
+
+
      pytest : A framework for writing and running tests.
      requests : library for HTTP requests.
      pytest-html : generating HTML reports for pytest results.
@@ -108,35 +110,24 @@
 
 
 
+ 10. Report
 
+     Screenshot of the report is attached 'Petstore_APIAutomation/Report_Screenshots' folder.
+     which have Allure Report,  pytest-html report.
 
- 10. HTML Report
-
-         Pets - file:///C:/Users/This%20Pc/PycharmProjects/APIAutomation/PetStrore_APIAutomation/Test%20Results_Pets%20-%20.html
-         
-         Store - file:///C:/Users/This%20Pc/PycharmProjects/APIAutomation/PetStrore_APIAutomation/Test%20Results_Store%20-%20.html
-    
-         Users - file:///C:/Users/This%20Pc/PycharmProjects/APIAutomation/PetStrore_APIAutomation/Test%20Results_User%20-%20.html
-
- 11. Running the Tests
+     
+ 12. Running the Tests
+     
              Allure report
 
              pytest --alluredir=AllureReport_API
              allure serve .\AllureReport_API\
             
-             Allure Report:
-             http://192.168.220.251:56664/index.html#
 
  pytest-html
              
              py.test -v -s
              pytest --html=report.html
-
-report.html
-
-http://localhost:63342/PetStrore_APIAutomation/report.html?_ijt=nfl8rvsspmg1s0uihcckaepkg2&_ij_reload=RELOAD_ON_SAVE&sort=result
-
-http://192.168.220.251:51839/index.html#
 
 
 
