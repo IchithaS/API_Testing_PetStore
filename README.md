@@ -9,7 +9,7 @@
 
 
 
-     pip install 
+     #pip install 
 
      pytest : A framework for writing and running tests.
      requests : library for HTTP requests.
@@ -77,7 +77,7 @@
 
 
 
-   - Pet Endpoint
+- Pet Endpoint
 
 
         -Positive :-Creating a new pet
