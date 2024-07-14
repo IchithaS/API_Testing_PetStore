@@ -1,7 +1,7 @@
 import pytest
 import requests
 
-# Base URL - PetStrore Swagger
+# Base URL - PetStrore Swagger API
 @pytest.fixture(scope="session")
 def base_url():
     return "https://petstore.swagger.io/v2"
